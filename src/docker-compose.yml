@@ -58,14 +58,14 @@ volumes:
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: "/home/asouchet/data/wordpress/"
+      device: "/home/hefurrer/data/wordpress/"
   mdb_vol:
     name: "mariadb_volume"
     driver: local 
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: "/home/asouchet/data/mariadb/"
+      device: "/home/hefurrer/data/mariadb/"
 
 # version: '3.8'
 # services:
@@ -127,11 +127,11 @@ volumes:
 #     driver_opts:
 #       type: 'none'
 #       o: 'bind'
-#       device: "/home/asouchet/data/wordpress/"
+#       device: "/home/hefurrer/data/wordpress/"
 #   mdb_vol:
 #     name: "mariadb_volume"
 #     driver: local 
 #     driver_opts:
 #       type: 'none'
 #       o: 'bind'
-#       device: "/home/asouchet/data/mariadb/"
+#       device: "/home/hefurrer/data/mariadb/"
